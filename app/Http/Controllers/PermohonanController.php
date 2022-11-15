@@ -64,4 +64,9 @@ class PermohonanController extends Controller
     {   
         return view('permohonan-kompetensi.bukti');
     }
+
+    public function assesmenMandiri()
+    {
+        return view('permohonan-kompetensi.assesmen-mandiri');
+    }
 }

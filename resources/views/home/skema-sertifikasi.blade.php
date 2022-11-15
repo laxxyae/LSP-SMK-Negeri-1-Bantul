@@ -17,33 +17,33 @@
                 <table class="table table-striped table-bordered table-list">
                 <thead>
                 <tr>
-                <th></th>
-                    <th>Skema Sertifikasi</th>
+                    <th class="text-center">Telusuri</th>
+                    <th class="text-center">Skema Sertifikasi</th>
                     <th style="text-align: center;">Jumlah Unit</th>
-                    <th>Jenis</th>
+                    <th class="text-center">Jenis</th>
                     </tr>
                     </thead>
                     <tbody>
                     <tr>
                         <td align="center">
-                        <a href="" class="btn btn-default btn-xs"><em class="fa fa-search"></em></a>
+                        <a href="/detail1" class="btn btn-default btn-xs"><em class="fa fa-search"></em></a>
                     </td>
                         <td>Pemrograman Dasar</td>
                         <td style="text-align: center;">10</td>
                         <td>Klaster</td>
                     <tr>
                         <td align="center">
-                        <a href="" class="btn btn-default btn-xs"><em class="fa fa-search"></em></a>
+                        <a href="/detail2" class="btn btn-default btn-xs"><em class="fa fa-search"></em></a>
                     </td>
                         <td>Pemrograman Web</td>
-                        <td style="text-align: center;">6</td>
+                        <td style="text-align: center;">12</td>
                         <td>Klaster</td>
                     <tr>
                         <td align="center">
-                        <a href="" class="btn btn-default btn-xs"><em class="fa fa-search"></em></a>
+                        <a href="/detail3" class="btn btn-default btn-xs"><em class="fa fa-search"></em></a>
                     </td>
                         <td>Pemrograman Berorientasi Objek</td>
-                        <td style="text-align: center;">6</td>
+                        <td style="text-align: center;">13</td>
                         <td>Klaster</td>
                     </tr>
                     </tbody>
@@ -52,9 +52,6 @@
             <div class="col-md-3">
         </div>
         <div class="col-md-12" style="padding-top: 20px;">
-            <div class="halaman">
-                <div class="pagging text-center"><nav><ul class="pagination justify-content-center"><li class="page-item active"><span class="page-link">1<span class="sr-only">(current)</span></span></li><li class="page-item"><span class="page-link"><a href="https://lspsmakpadang.id/sertifikasi/vskema/0/10">2</a></span></li><li class="page-item"><span class="page-link"><a href="https://lspsmakpadang.id/sertifikasi/vskema/0/20">3</a></span></li><li class="page-item"><span class="page-link"><a href="https://lspsmakpadang.id/sertifikasi/vskema/0/10">»</a>&nbsp;</span></li><li class="page-item"><span class="page-link"><a href="https://lspsmakpadang.id/sertifikasi/vskema/0/30">Last</a></span></li></ul></nav></div>                <!-- </li> -->
-            </div>
         </div>
     </div>
     </div>

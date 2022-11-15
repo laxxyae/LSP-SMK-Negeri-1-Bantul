@@ -26,6 +26,21 @@ class HomeController extends Controller
         return view('home.skema-sertifikasi');
     }
 
+    public function detail1()
+    {
+        return view('home.detail1');
+    }
+
+    public function detail2()
+    {
+        return view('home.detail2');
+    }
+
+    public function detail3()
+    {
+        return view('home.detail3');
+    }
+
     public function tuk()
     {
         return view('home.tuk');

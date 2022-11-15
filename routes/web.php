@@ -4,6 +4,7 @@ use App\Http\Controllers\AuthController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\MataPelajaranController;
 use App\Http\Controllers\PermohonanController;
+use App\Http\Controllers\PesertaController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -24,14 +25,19 @@ Route::get('/beranda', [HomeController::class, 'beranda'])->name('login');
 Route::get('/visi-misi', [HomeController::class, 'visiMisi']);
 Route::get('/struktur-organisasi', [HomeController::class, 'strukturOrganisasi']);
 Route::get('/skema-sertifikasi', [HomeController::class, 'skemaSertifikasi']);
+Route::get('/detail1', [HomeController::class, 'detail1']);
+Route::get('/detail2', [HomeController::class, 'detail2']);
+Route::get('/detail3', [HomeController::class, 'detail3']);
 Route::get('/tuk', [HomeController::class, 'tuk']);
 Route::get('/kontak', [HomeController::class, 'kontak']);
+
 
 Route::group(['prefix' => "permohonan-kompetensi"], function () {
     Route::get('/', [PermohonanController::class, 'index']);
     Route::get('/data', [PermohonanController::class, 'data']);
     Route::put('/data', [PermohonanController::class, 'storeData']);
     Route::get('/bukti', [PermohonanController::class, 'bukti']);
+    Route::get('/assesmen-mandiri', [PermohonanController::class, 'assesmenMandiri']);
 });
 
 Route::group(['middleware' => "auth"], function () {
@@ -40,4 +46,5 @@ Route::group(['middleware' => "auth"], function () {
     });
 
     Route::resource('/mata-pelajaran', MataPelajaranController::class)->except('show');
+    Route::resource('/peserta', PesertaController::class)->except('show');
 });

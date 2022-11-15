@@ -11,14 +11,15 @@
                 <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
                 Mata Pelajaran
             </a>
+            <a class="nav-link" href="/peserta">
+                <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
+                Peserta
+            </a>
             <a class="nav-link" href="/beranda">
                 <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
                 Beranda
             </a>
-            <a class="nav-link" href="#">
-                <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
-                User
-            </a>
+            
             <!-- <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
                     <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
                     Layouts

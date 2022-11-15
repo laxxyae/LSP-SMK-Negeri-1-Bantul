@@ -162,6 +162,7 @@
         </tr>
     </table>
     <div class="text-end">
-        <button type="submit" class="btn btn-primary my-3">Submit</button>
+        {{-- <button type="submit" class="btn btn-primary my-3">Selanjutnya</button> --}}
+        <a href="/permohonan-kompetensi/bukti" class="btn btn-primary my-3">Selanjutnya</a>
     </div>
 @endsection

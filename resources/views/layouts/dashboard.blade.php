@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <link rel="shortcut icon" href="/img/user.png" alt="Logo">
     <title>Admin Dashboard</title>
 
     <link href="/css/dashboard.css" rel="stylesheet" />
