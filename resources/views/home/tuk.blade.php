@@ -17,21 +17,21 @@
                 <table class="table table-striped table-bordered table-list">
                   <thead>
                     <tr>
-                        <th>-</th>
-                        <th>Nama TUK</th>
-                        <th>Alamat</th>
-                        <th>HP</th>
+                        <th class="text-center">No.</th>
+                        <th class="text-center">Nama TUK</th>
+                        <th class="text-center">Alamat</th>
+                        <th class="text-center">HP</th>
                     </tr>
                   </thead>
                   <tbody>
                         <tr>
                         <td align="center">
-                          <b> 1 .</b>
+                          <b>1.</b>
                         </td>
                         <td>TUK SMK NEGERI 1 BANTUL </td>
                         <td>Jl. Parangtritis No.KM.11, Dukuh, Sabdodadi, Kec. Bantul,
                             Kabupaten Bantul, Daerah Istimewa Yogyakarta 55715</td>
-                        <td>0274-367156</td>
+                        <td class="text-center" width="15%">0274-367156</td>
                       </tr>
                 </tbody>
                 </table>

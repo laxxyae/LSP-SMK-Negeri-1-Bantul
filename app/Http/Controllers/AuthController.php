@@ -25,12 +25,21 @@ class AuthController extends Controller
             'password' => $request->password
         ];
 
-        if (Auth::attempt($creds)) {
-            $request->session()->regenerate();
-
-            return redirect('/dashboard');
+        if ($request->role == "admin"){
+            if (Auth::guard('user')->attempt($creds)) {
+                $request->session()->regenerate();
+    
+                return redirect('/dashboard');
+            }
         }
-
+        else{
+            if (Auth::guard('siswa')->attempt($creds)) {
+                $request->session()->regenerate();
+    
+                return redirect('/permohonan-kompetensi');
+            }
+        }
+        
         Alert::error('Login Gagal', "Akun Tidak Ditemukan");
         return redirect()->back();
     }

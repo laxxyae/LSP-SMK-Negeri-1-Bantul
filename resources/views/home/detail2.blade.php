@@ -95,4 +95,8 @@
         </div>
     </div>
 
+    <div class="text-end">
+        <a href="{{ URL::previous() }}" class="btn btn-primary my-3">Back</a>
+    </div>
+
 @endsection
